@@ -148,9 +148,9 @@ AspectRatioRecycler requires a minimum SDK version of 9.
 
 License
 -------
-Apache 2.0. See the link[1] for details.
+Apache 2.0. See the [link][1] for details.
 
-	Copyright $today.year Awanish Raj
+	Copyright 2015 Awanish Raj
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
