@@ -32,7 +32,7 @@ How do I use AspectRatioRecycler?
 
 Make your dataset item POJO implement the ```DimInterface```
 
-```
+```java
 public class ImagePOJO implements DimInterface {
 
     
@@ -69,7 +69,7 @@ public class ImagePOJO implements DimInterface {
 
 Make your custom RecyclerView.Adapter implement the ```ARAdapterInterface```
 
-```
+```java
 public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ViewHolder> implements ARAdapterInterface {
 
     private List<ImagePOJO> mValues = new ArrayList<>();
@@ -101,7 +101,7 @@ Apply the wrapper around your adapter before applying to your RecyclerView.
 
 For example change
 
-```
+```java
 myRecyclerView.setAdapter(new ARAdapterWrapper(imageAdapter));
 //Where imageAdapter is your adapter that implements ARAdapterInterface
 ```
@@ -110,7 +110,7 @@ myRecyclerView.setAdapter(new ARAdapterWrapper(imageAdapter));
 
 Finally, use the ```ARLayoutManager``` and set it to your RecyclerView.
 
-```
+```java
 ARLayoutManager alm = new ARLayoutManager(this, imageAdapter);
 //Where imageAdapter is your adapter that implements ARAdapterInterface
 
@@ -130,7 +130,7 @@ Calling this method automatically calls ```notifyDatasetChanged()``` on your ada
 
 Example,
 
-```
+```java
 ...
 alm.setThresholds(1.5f, 2.5f);
 ...
