@@ -3,6 +3,9 @@ AspectRatioRecycler
 
 AspectRatioRecycler Android library allows developers to easily apply an uncropped layout for cells in their image grid.
 This kind of layout is ideal for a comfortable photo viewing as opposed to the traditional square grid.
+
+![Screenshot][2]
+
 This library is designed around the RecyclerView architecture, allowing developers to quickly port their RecyclerView projects with this LayoutManager.
 
 The library majorly consists of 
@@ -117,8 +120,9 @@ ARLayoutManager alm = new ARLayoutManager(this, imageAdapter);
 myRecyclerView.setLayoutManager(alm);
 ```
 
-How do I control the Grid Size
-------------------------------
+How do I control the Grid Size?
+-------------------------------
+
 You can control the scaling of the grid using ```setThresholds(float ar_min, float ar_max)``` method of the ```ARLayoutManager```
 
 The parameters decide the following:
@@ -152,3 +156,4 @@ Author
 Awanish Raj - @awanishraj
 
 [1]: http://www.apache.org/licenses/LICENSE-2.0
+[2]: https://github.com/awanishraj/AspectRatioRecycler/raw/master/screenshots/screens.png
