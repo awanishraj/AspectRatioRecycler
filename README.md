@@ -1,5 +1,6 @@
 AspectRatioRecycler
 ===================
+ [ ![Download](https://api.bintray.com/packages/awanishraj/maven/aspect-ratio-recycler/images/download.svg) ](https://bintray.com/awanishraj/maven/aspect-ratio-recycler/_latestVersion)
 
 AspectRatioRecycler Android library allows developers to easily apply an uncropped layout for cells in their image grid.
 This kind of layout is ideal for a comfortable photo viewing as opposed to the traditional square grid.
