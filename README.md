@@ -21,7 +21,7 @@ Using Gradle:
 
 ```gradle
 repositories {
-    mavenCentral()
+    jcenter()
 }
 
 dependencies {
